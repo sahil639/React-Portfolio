@@ -26,15 +26,15 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-size: 7rem;
       font-family: 'Montserrat SemiBold';
+      font-size: 7rem;
       color: var(--white);
     }
   }
   .hero__img {
-    max-width: 980px;
+    max-width: 900px;
     width: 100%;
-    height: 608px;
+    height: 600px;
     margin: 0 auto;
     border: 2px solid var(--gray-1);
   }
@@ -43,22 +43,102 @@ const HeroStyles = styled.div`
   }
   .hero__social,
   .hero__scrollDown {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      position: absolute;
-      bottom: 20px;
-      width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    bottom: 20px;
+    width: 50px;
+  }
+  .hero__social {
+    left: 50px;
+  }
+  .hero__scrollDown {
+    right: 50px;
+  }
+  .hero__social__indicator,
+  .hero__scrollDown {
+    width: 50px;
+    p {
+      font-size: 1.6rem;
+      transform: translateY(-70px) rotate(90deg);
+      letter-spacing: 0.7rem;
+      text-transform: uppercase;
+    }
+    img {
+      max-height: 45px;
+      width: 16px;
+      margin: 0 auto;
+      object-fit: contain;
+    }
+  }
+  .hero__scrollDown {
+    img {
+      max-height: 70px;
+    }
+  }
+  .hero__social__text {
+    ul {
+      li {
+        margin-bottom: 1rem;
+        a {
+          display: inline-block;
+          font-size: 1.6rem;
+          transform: rotate(-90deg);
+          letter-spacing: 5px;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .hero {
+      min-height: 750px;
+    }
+    .hero__heading {
+      font-size: 1.4rem;
+      margin-bottom: -3rem;
+      .hero__name {
+        font-size: 4.5rem;
+      }
+    }
+    .hero__img {
+      height: 300px;
+    }
+    .hero__info {
+      margin-top: 3rem;
     }
     .hero__social {
-      left: 50px;
+      left: 0px;
+      bottom: -15%;
+      width: 20px;
+      .hero__social__indicator {
+        width: 20px;
+        p {
+          font-size: 1.2rem;
+        }
+        img {
+          max-height: 22px;
+        }
+      }
+      .hero__social__text {
+        ul {
+          li {
+            a {
+              font-size: 1.2rem;
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
     }
     .hero__scrollDown {
-      right: 50px;
-    }
-    .hero__social__indicator,
-    .hero__scrollDown{
-       
+      right: 0;
+      width: 20px;
+      gap: 1rem;
+      p {
+        font-size: 1.3rem;
+      }
     }
   }
 `;
@@ -77,50 +157,61 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <Ptext>
-              I am working as a freelance Graphic and UI/UX designer and
-              frontend developer for 3 years. I love designing and making super
-              beautiful and awesome websites.
+              I am working as a freelance Graphic Designer and UI Designer. I
+              love creating breathtaking and sick looking designs. I have 3
+              years of experience in designing and frontend developement
             </Ptext>
-            <Button btnLink="/projects" btnText="See my works" />
+            <Button btnText="see my works" btnLink="/projects" />
           </div>
-          <div className="hero__social__indicator">
-            <p>Follow</p>
-            <img src={SocialMediaArrow} alt="social media arrow" />
-          </div>
-          <div className="hero__social__text">
-            <ul>
-              <li>
-                <a
-                  href="https://www.youtube.com/watch?v=kwb_GRm6NtU"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  FB
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.behance.net/sahilpedneb5bd"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  BH
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/sahil-pednekar-2505931b8/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  LI
-                </a>
-              </li>
-            </ul>
+          <div className="hero__social">
+            <div className="hero__social__indicator">
+              <p>Follow</p>
+              <img src={SocialMediaArrow} alt="icon" />
+            </div>
+            <div className="hero__social__text">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.behance.net/sahilpedneb5bd"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    BH
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/sahil-pednekar-2505931b8/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LI
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/sahil.pednekar/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    IG
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://dribbble.com/Sahil369"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    DB
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="hero__scrollDown">
             <p>Scroll</p>
-            <img src={ScrollDownArrow} alt="" />
+            <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
           </div>
         </div>
       </div>
