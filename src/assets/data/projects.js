@@ -41,6 +41,13 @@ const projects = [
       'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
     img: ProjectImg,
   },
+  {
+    id: uuidv4(),
+    name: 'Tracking Soft',
+    desc:
+      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+    img: ProjectImg,
+  },
 ];
 
 export default projects;
