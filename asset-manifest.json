@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.js": "/React-Portfolio%20/static/js/main.bac8dccc.chunk.js",
+    "main.js.map": "/React-Portfolio%20/static/js/main.bac8dccc.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio%20/static/js/runtime-main.7ff0cd92.js",
+    "runtime-main.js.map": "/React-Portfolio%20/static/js/runtime-main.7ff0cd92.js.map",
+    "static/css/2.41ebb63b.chunk.css": "/React-Portfolio%20/static/css/2.41ebb63b.chunk.css",
+    "static/js/2.d507634e.chunk.js": "/React-Portfolio%20/static/js/2.d507634e.chunk.js",
+    "static/js/2.d507634e.chunk.js.map": "/React-Portfolio%20/static/js/2.d507634e.chunk.js.map",
+    "index.html": "/React-Portfolio%20/index.html",
+    "static/css/2.41ebb63b.chunk.css.map": "/React-Portfolio%20/static/css/2.41ebb63b.chunk.css.map",
+    "static/js/2.d507634e.chunk.js.LICENSE.txt": "/React-Portfolio%20/static/js/2.d507634e.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Bold.079ca05d.ttf": "/React-Portfolio%20/static/media/Montserrat-Bold.079ca05d.ttf",
+    "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/React-Portfolio%20/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/RobotoMono-Regular.418a8f9f.ttf": "/React-Portfolio%20/static/media/RobotoMono-Regular.418a8f9f.ttf",
+    "static/media/about-page-img.9c8789a0.png": "/React-Portfolio%20/static/media/about-page-img.9c8789a0.png",
+    "static/media/about-sec-img.aa223b22.png": "/React-Portfolio%20/static/media/about-sec-img.aa223b22.png",
+    "static/media/cavinimg.77adeaa3.jpg": "/React-Portfolio%20/static/media/cavinimg.77adeaa3.jpg",
+    "static/media/cointracker.8da9e0cd.jpg": "/React-Portfolio%20/static/media/cointracker.8da9e0cd.jpg",
+    "static/media/greenctg.e51b3bbd.jpg": "/React-Portfolio%20/static/media/greenctg.e51b3bbd.jpg",
+    "static/media/hero.b3831af7.png": "/React-Portfolio%20/static/media/hero.b3831af7.png",
+    "static/media/map.7d98ba39.png": "/React-Portfolio%20/static/media/map.7d98ba39.png",
+    "static/media/projectImg.771236e1.png": "/React-Portfolio%20/static/media/projectImg.771236e1.png",
+    "static/media/scroll-down-arrow.b013ca45.svg": "/React-Portfolio%20/static/media/scroll-down-arrow.b013ca45.svg",
+    "static/media/social-media-arrow.f5e093ce.svg": "/React-Portfolio%20/static/media/social-media-arrow.f5e093ce.svg",
+    "static/media/utracker.be1fe64a.jpg": "/React-Portfolio%20/static/media/utracker.be1fe64a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ff0cd92.js",
+    "static/css/2.41ebb63b.chunk.css",
+    "static/js/2.d507634e.chunk.js",
+    "static/js/main.bac8dccc.chunk.js"
+  ]
+}
