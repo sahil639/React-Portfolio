@@ -60,7 +60,7 @@ export default function Map() {
           </a>
         </div>
       </div>
-      {/* <img src={MapImg} alt="Map" /> */}
+      <img src={MapImg} alt="Map" />
     </MapStyles>
   );
 }
