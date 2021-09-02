@@ -75,11 +75,6 @@ export default function Footer() {
               },
               {
                 type: 'Link',
-                title: 'About',
-                path: '/about',
-              },
-              {
-                type: 'Link',
                 title: 'Projects',
                 path: '/projects',
               },
@@ -96,8 +91,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+91 9082217820',
+                path: 'tel:+91 9082217820',
               },
               {
                 title: 'sahilpednekar332000@gmail.com',
@@ -115,12 +110,12 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'https://www.facebook.com/hystericalsahil33/',
+                title: 'GitHub',
+                path: 'https://github.com/sahil639',
               },
               {
-                title: 'Twitter',
-                path: 'https://twitter.com/SahilPednekar15',
+                title: 'Behance',
+                path: 'https://www.behance.net/sahilpedneb5bd',
               },
               {
                 title: 'Instagram',
