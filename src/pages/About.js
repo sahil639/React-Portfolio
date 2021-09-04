@@ -82,29 +82,31 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Sahil Pednekar</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Designer and Developer</h2>
               <div className="about__info">
                 <PText>
-                  Dave watched as the forest burned up on the hill, only a few
-                  miles from her house. The car had been hastily packed and
-                  Marta was inside trying to round up the last of the pets. Dave
-                  went through his mental list of the most important papers and
-                  documents that they couldn't leave behind. He scolded himself
+                  While growing up i always understood art and its different
+                  forms but technology being simple and complex at the same time
+                  was an intresting topic that i didnt uderstand for most of my
+                  life and it always made me curious about the architecture of
+                  each and every thing.
                   <br /> <br />
-                  The chair sat in the corner where it had been for over 25
-                  years. The only difference was there was someone actually
-                  sitting in it. How long had it been since someone had done
-                  that? Ten years or more he imagined. Yet there was no denying
-                  the presence in the chair now.
+                  After working with several student clubs and completing
+                  several intenships I had gaines a good amount of understanding
+                  of design and its effect on people and how everything needs
+                  design from the core to the surface and witht design and
+                  planning great things cab be achieved.
                   <br />
-                  <br />
-                  He had three simple rules by which he lived. The first was to
-                  never eat blue food. There was nothing in nature that was
-                  edible that was blue. People often asked about blueberries,
-                  but everyone knows those are actually purple.
+                  <br />I have decided to make the best tools for our community
+                  using my design experience and developement skills and help in
+                  making the complex architecture that exist all around us more
+                  transparent and something to appreciate.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <Button
+                btnText="Download Resume"
+                btnLink="https://drive.google.com/file/d/1lqGbSTv_50leZd4bpkK11825bfp_4pCk/view?usp=sharing"
+              />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -118,31 +120,63 @@ export default function About() {
                 title="School"
                 items={['General Education Academy, Chembur']}
               />
-              <AboutInfoItem title="College" items={['S.I.E.S, Sion']} />
-              <AboutInfoItem title="Varsity" items={['University Of Mumbai']} />
+              <AboutInfoItem title="JuniorCollege" items={['S.I.E.S, Sion']} />
+              <AboutInfoItem
+                title="University"
+                items={['University Of Mumbai']}
+              />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItem
-                title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                title="Image Processing"
+                items={['Keras', 'Scilab', 'Tensorflow', 'OpenCV']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                title="Android"
+                items={['XML', 'Flutter', 'Kotlin']}
+              />
+              <AboutInfoItem
+                title="Database"
+                items={['Django', 'Flask', 'PostGreSQL', 'MySQL']}
+              />
+              <AboutInfoItem
+                title="Programming"
+                items={['Python', 'C/C++', 'JavaScript']}
               />
               <AboutInfoItem
                 title="Design"
-                items={['Photoshop', 'After Effects', 'Figma', 'Illustrator']}
+                items={[
+                  'Photoshop',
+                  'After Effects',
+                  'Figma',
+                  'Illustrator',
+                  'Premier Pro',
+                  'XD',
+                  'Blender',
+                  'Cinema4D',
+                ]}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
-              <AboutInfoItem title="2010-2012" items={['#']} />
-              <AboutInfoItem title="2012-2016" items={['#']} />
-              <AboutInfoItem title="2016-" items={['#']} />
+              <AboutInfoItem
+                title="2018"
+                items={['Sales & Marketing Intern - Kusam Meco']}
+              />
+              <AboutInfoItem
+                title="2020"
+                items={['Android Study Jams Campus Facilitator']}
+              />
+              <AboutInfoItem
+                title="2021-"
+                items={[
+                  'Graphic Designer - The Social Turtle',
+                  'App developement intern - The Sparks Foundation',
+                ]}
+              />
             </div>
           </div>
         </div>

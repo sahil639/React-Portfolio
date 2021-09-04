@@ -1,5 +1,11 @@
 import React from 'react';
-import { MdCode, MdDesktopMac, MdPhonelinkSetup } from 'react-icons/md';
+import {
+  MdCode,
+  MdDesktopMac,
+  MdFormatPaint,
+  MdFormatShapes,
+  MdPhonelinkSetup,
+} from 'react-icons/md';
 import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import ServiceSectionItem from './ServiceSectionItem';
@@ -32,23 +38,37 @@ export default function ServiceSection() {
           <ServiceSectionItem
             icon={<MdDesktopMac />}
             title="Web design"
-            desc="i do ui/ux design for the
+            desc="I do ui/ux design for the
              website that helps website to 
-             get better unique look."
+             get better and more unique look and also  better usability."
           />
           <ServiceSectionItem
             icon={<MdCode />}
             title="Web developement"
-            desc="i do ui/ux design for the
-             website that helps website to 
-             get better unique look."
+            desc="I have fun creating minimal to extravagant
+            web designs and I keep my desings upated with the
+            current web dev trends."
           />
           <ServiceSectionItem
             icon={<MdPhonelinkSetup />}
             title="App Dev"
-            desc="i do ui/ux design for the
-              website that helps website to 
-              get better unique look."
+            desc="Flutter and Kotlin are my passion
+            when it comes to app developement."
+          />
+          <ServiceSectionItem
+            icon={<MdFormatShapes />}
+            title="Graphic Design"
+            desc="Having succeded in my many 
+            roles as designer, I have developed a
+            unique skill, style and aesthic in my designs
+            thats many find to be attractive and remarkable."
+          />
+          <ServiceSectionItem
+            icon={<MdFormatPaint />}
+            title="Digital Illustrator"
+            desc="One of my passion is art 
+            and digital media provides a vast
+            potential to showcase  my talent."
           />
         </div>
       </div>

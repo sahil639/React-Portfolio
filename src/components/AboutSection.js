@@ -80,9 +80,9 @@ export default function AboutSection() {
             heading="About me"
           />
           <Ptext>
-            I am working as a freelance Graphic Designer and UI Designer. I love
-            creating breathtaking and sick looking designs. I have 3 years of
-            experience in designing and frontend developement
+            I am a Graphic Designer, Web Developer, UI/UX Designer and Android
+            developer. I have 3 years of experience in desiging and I love to
+            create whether it be a simple poster or complicated android apps.
           </Ptext>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Works" />

@@ -157,9 +157,10 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <Ptext>
-              I am working as a freelance Graphic Designer and UI Designer. I
-              love creating breathtaking and sick looking designs. I have 3
-              years of experience in designing and frontend developement
+              With 3 year of designing experience all I can say about myself is
+              that i love to create and customize everything and now i have
+              developed my technical skills to make real world contributions
+              with the help of my aesthetic.
             </Ptext>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
