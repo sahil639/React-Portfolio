@@ -103,10 +103,7 @@ export default function About() {
                   transparent and something to appreciate.
                 </PText>
               </div>
-              <Button
-                btnText="Download Resume"
-                btnLink="https://drive.google.com/file/d/1lqGbSTv_50leZd4bpkK11825bfp_4pCk/view?usp=sharing"
-              />
+              <Button btnText="Download Resume" btnLink="#" />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

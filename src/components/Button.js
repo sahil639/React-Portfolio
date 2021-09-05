@@ -22,7 +22,7 @@ const ButtonStyle = styled.div`
 `;
 
 export default function Button({
-  btnLink = 'True',
+  btnLink = 'https://www.instagram.com/sahil.pednekar/',
   btnText = 'Test',
   outline = false,
 }) {

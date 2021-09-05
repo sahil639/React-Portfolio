@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
+import cronos from '../images/cronos.jpg';
 import ProjectImg from '../images/projectImg.png';
 import UTrackerImg from '../images/utracker.jpg';
 import GreenCtgImg from '../images/greenctg.jpg';
@@ -40,7 +41,7 @@ const projects = [
     id: uuidv4(),
     name: 'Cronos - to do app',
     desc: 'A to do app mde in Android Studio using Kotlin programming Language.',
-    img: ProjectImg,
+    img: cronos,
   },
 ];
 
